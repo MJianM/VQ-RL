@@ -37,6 +37,7 @@ MANIFEST
 checkpoints/
 outputs/
 wandb/
+output/
 
 # Installer logs
 pip-log.txt
@@ -138,3 +139,5 @@ demos/
 logs/
 
 vqbet_datasets*
+
+*.out

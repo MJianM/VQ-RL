@@ -2,11 +2,6 @@
 
 Official implementation of VQ-BeT: Behavior Generation with Latent Actions.
 
-
-project website: https://sjlee.cc/vq-bet
-
-<img src="https://github.com/jayLEE0301/vq_bet/assets/30570922/da0654cf-a15a-4ea3-9f90-c389f06e8796">
-
 ## Installation
 
 - Make a conda environemnt (We tested on python 3.7 and 3.9) and activate the environment
