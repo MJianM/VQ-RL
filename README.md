@@ -1,4 +1,13 @@
-# VQ-BeT: Behavior Generation with Latent Actions
+# VQ-RL
+
+进行机器人行为表征相关尝试
+
+基于VQ-BeT项目搭建：[VQ-BeT](https://github.com/jayLEE0301/vq_bet_official)
+
+Our code also sourced and modified from [miniBeT implementation](https://github.com/notmahi/miniBET) for [conditional](https://play-to-policy.github.io) and [unconditional behavior transformer](https://mahis.life/bet) Algorithm. Also, we utilizes residual VQ-VAE codes from [Vector Quantization - Pytorch repo](https://github.com/lucidrains/vector-quantize-pytorch), PushT env from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), Ant env base from [DHRL](https://github.com/jayLEE0301/dhrl_official) and UR3 env from [here](https://github.com/snu-larr/dual-ur3-env). 
+
+
+<!-- # VQ-BeT: Behavior Generation with Latent Actions
 
 Official implementation of VQ-BeT: Behavior Generation with Latent Actions.
 
@@ -210,4 +219,4 @@ Hyperparameters to be determined during the VQ-BeT training (in order of importa
   ```
 ---
 
-Our code sourced and modified from [miniBeT implementation](https://github.com/notmahi/miniBET) for [conditional](https://play-to-policy.github.io) and [unconditional behavior transformer](https://mahis.life/bet) Algorithm. Also, we utilizes residual VQ-VAE codes from [Vector Quantization - Pytorch repo](https://github.com/lucidrains/vector-quantize-pytorch), PushT env from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), Ant env base from [DHRL](https://github.com/jayLEE0301/dhrl_official) and UR3 env from [here](https://github.com/snu-larr/dual-ur3-env).
+Our code sourced and modified from [miniBeT implementation](https://github.com/notmahi/miniBET) for [conditional](https://play-to-policy.github.io) and [unconditional behavior transformer](https://mahis.life/bet) Algorithm. Also, we utilizes residual VQ-VAE codes from [Vector Quantization - Pytorch repo](https://github.com/lucidrains/vector-quantize-pytorch), PushT env from [Diffusion Policy](https://github.com/real-stanford/diffusion_policy), Ant env base from [DHRL](https://github.com/jayLEE0301/dhrl_official) and UR3 env from [here](https://github.com/snu-larr/dual-ur3-env). -->
