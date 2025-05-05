@@ -58,12 +58,12 @@ vqvae_model:
   obs_dim: 41
   input_dim_h: ${action_window_size}
   input_dim_w: ${env.act_dim}
-  n_latent_dims: 512
-  vqvae_n_embed: 10
-  vqvae_groups: 2
+  n_latent_dims: 512   # 隐空间维度
+  vqvae_n_embed: 10    # 词典大小
+  vqvae_groups: 2      # VQ个数
   eval: false
   device: ${device}
-  encoder_loss_multiplier: 0.033
+  encoder_loss_multiplier: 0.033  # 重构误差所占权重
 
 
 goal_fn:
